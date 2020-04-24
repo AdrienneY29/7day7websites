@@ -1,0 +1,134 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+</head>
+<style>
+    
+background{
+  background-color: hsl(0, 0%, 98%);
+
+}
+@font-face {
+   font-family: "Poppins";
+   src: url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+}
+
+h1, h2 {
+  font-weight: 200;
+  font-family: "Poppins";
+  text-align: center;
+}
+p, footer {
+      font-size: 15px;
+  font-weight:400;
+  color: hsl(229, 6%, 66%);
+  font-family: "Poppins";
+  text-align: center;
+    }
+
+
+
+
+.container {
+  display: flex;
+  align-items: center;
+  padding: 2em;
+  justify-content: space-around;
+}
+
+.container p{
+  text-align: left;
+}
+
+.item {
+  display: flex;
+  flex-flow: row wrap;
+  min-width: 275px;
+  height: 200px;
+  margin-right: 1em;
+  margin-bottom: 1em;
+  margin-left: 1em;
+  padding: 2em;
+}
+
+.image{
+  display: inline-block;
+  padding-bottom: 1em;
+  margin: 0% 77%;
+}
+
+#supervisor{
+  border-top: 5px solid cyan;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 hsl(229, 6%, 66%,.4), 0 6px 20px 0 hsl(229, 6%, 66%,.4);
+ text-align: left;
+}
+
+#team{
+  border-top: 5px solid hsl(0, 78%, 62%);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 hsl(229, 6%, 66%,.4), 0 6px 20px 0 hsl(229, 6%, 66%,.4);
+  text-align: left;
+}
+
+#karma{
+  border-top: 5px solid hsl(34, 97%, 64%);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 hsl(229, 6%, 66%,.4), 0 6px 20px 0 hsl(229, 6%, 66%,.4);
+  text-align: left;
+}
+
+#calc{
+  border-top: 5px solid hsl(234, 12%, 34%);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 hsl(229, 6%, 66%,.4), 0 6px 20px 0 hsl(229, 6%, 66%,.4);
+  text-align: left;
+}
+
+
+@media screen and (max-width: 767px){
+  .container{
+  flex-flow: column wrap;
+}
+}
+
+    
+    
+    
+    
+    </style>
+<body>
+     <h2> Reliable, efficient delivery
+  <br><b>Powered by Technology</b></h2><br>
+    <p>Our Artificial Intelligence powered tools use millions of project data points to ensure that your project is successful </p>
+
+ <div class="container">
+   
+   <div class="box">
+  <div class="item" id="supervisor"><h3><b>Supervisor</b></h3>
+    <p>Monitors activity to identify project roadblocks</p>
+     <div class="image"><img src="http://orangewafer.com/wp-content/uploads/2020/04/icon-supervisor.svg"></div>
+     </div>
+   </div>
+  <div class="box">
+  <div class="item" id="team"><h3><b>Team Builder</b></h3><p> Scans our talent network to create the optimal team for your project </p>
+    <div class="image"><img src="http://orangewafer.com/wp-content/uploads/2020/04/icon-team-builder.svg"></div>
+    </div>
+    <div class="item" id="karma"><h3><b>Karma</b></h3><p> Regularly evaluates our talent to ensure quality </p>
+
+    <div class="image"><img src="http://orangewafer.com/wp-content/uploads/2020/04/icon-karma.svg"></div>
+    </div>
+</div>
+  <div class="box">
+  <div class="item" id="calc"><h3><b>Calculator</b></h3><p> Uses data from past projects to provide better delivery estimates</p>
+    <div class="image"><img src="http://orangewafer.com/wp-content/uploads/2020/04/icon-calculator.svg"></div>
+    </div>
+</div>
+</div>
+<footer><footer> Challenge by Frontend Mentor | Coded by Adrienne Y. </footer>
+</div>
+    
+</body>
+</html>
